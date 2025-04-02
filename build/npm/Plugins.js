@@ -34,16 +34,6 @@ const Plugins = [
     from: 'node_modules/overlayscrollbars/styles',
     to: 'plugins/overlayScrollbars/css'
   },
-  // Chart.js
-  {
-    from: 'node_modules/chart.js/dist/',
-    to: 'plugins/chart.js'
-  },
-  // jQuery UI
-  {
-    from: 'node_modules/jquery-ui-dist/',
-    to: 'plugins/jquery-ui'
-  },
   // Moment
   {
     from: 'node_modules/moment/min',
@@ -52,11 +42,6 @@ const Plugins = [
   {
     from: 'node_modules/moment/locale',
     to: 'plugins/moment/locale'
-  },
-  // Date Range Picker
-  {
-    from: 'node_modules/daterangepicker/',
-    to: 'plugins/daterangepicker'
   },
   // DataTables
   {
@@ -231,93 +216,11 @@ const Plugins = [
     from: 'node_modules/datatables.net-select-bs5/css',
     to: 'plugins/datatables-select/css'
   },
-
-  // Fullcalendar
-  {
-    from: 'node_modules/fullcalendar/',
-    to: 'plugins/fullcalendar'
-  },
-  // JQVMap (jqvmap-novulnerability)
-  {
-    from: 'node_modules/jqvmap-novulnerability/dist/',
-    to: 'plugins/jqvmap'
-  },
-  // jQuery Mapael
-  {
-    from: 'node_modules/jquery-mapael/js/',
-    to: 'plugins/jquery-mapael'
-  },
-  // Raphael
-  {
-    from: 'node_modules/raphael/',
-    to: 'plugins/raphael'
-  },
-  // Select2
-  {
-    from: 'node_modules/select2/dist/',
-    to: 'plugins/select2'
-  },
-  {
-    from: 'node_modules/@ttskch/select2-bootstrap4-theme/dist/',
-    to: 'plugins/select2-bootstrap4-theme'
-  },
-  // Sparklines
-  {
-    from: 'node_modules/sparklines/source/',
-    to: 'plugins/sparklines'
-  },
   // SweetAlert2
   {
     from: 'node_modules/sweetalert2/dist/',
     to: 'plugins/sweetalert2'
   },
-  // Toastr
-  {
-    from: 'node_modules/toastr/build/',
-    to: 'plugins/toastr'
-  },
-  // jsGrid
-  {
-    from: 'node_modules/jsgrid/dist',
-    to: 'plugins/jsgrid'
-  },
-  {
-    from: 'node_modules/jsgrid/demos/db.js',
-    to: 'plugins/jsgrid/demos/db.js'
-  },
-
-
-  // jQuery Validate
-  {
-    from: 'node_modules/jquery-validation/dist/',
-    to: 'plugins/jquery-validation'
-  },
-  {
-    from: 'node_modules/codemirror/addon/',
-    to: 'plugins/codemirror/addon'
-  },
-  {
-    from: 'node_modules/codemirror/keymap/',
-    to: 'plugins/codemirror/keymap'
-  },
-  {
-    from: 'node_modules/codemirror/mode/',
-    to: 'plugins/codemirror/mode'
-  },
-  {
-    from: 'node_modules/codemirror/theme/',
-    to: 'plugins/codemirror/theme'
-  },
-  // dropzonejs
-  {
-    from: 'node_modules/dropzone/dist/',
-    to: 'plugins/dropzone'
-  },
-  // uPlot
-  {
-    from: 'node_modules/uplot/dist/',
-    to: 'plugins/uplot'
-  }
 ]
 
 module.exports = Plugins
