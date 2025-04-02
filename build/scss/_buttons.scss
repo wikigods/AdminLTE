@@ -128,9 +128,9 @@
 
 // Extra Button Size
 
-.btn-xs {
-  @include button-size($button-padding-y-xs, $button-padding-x-xs, $button-font-size-xs, $button-line-height-xs, $button-border-radius-xs);
-}
+//.btn-xs {
+//  @include button-size($button-padding-y-xs, $button-padding-x-xs, $button-font-size-xs, $button-line-height-xs, $button-border-radius-xs);
+//}
 
 @include dark-mode () {
   .btn-default,
