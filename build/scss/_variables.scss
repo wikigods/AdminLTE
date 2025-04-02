@@ -246,14 +246,14 @@ $custom-select-dark-background:          none;//escape-svg($custom-select-dark-i
 $enable-dark-mode: true !default;  // requires `@import "variables-alt";`
 
 //
-$yiq-text-light: #fff;
-$table-dark-bg: #b46b6b;
-$yiq-text-dark: #d51212;
+$table-dark-bg: $gray-900 !default;
 $custom-checkbox-indicator-icon-checked: "\f0aa";
-$table-dark-border-color: #7fd87f;
+$table-dark-border-color: lighten($gray-900, 10%) !default;
 $custom-control-indicator-checked-color: #0e0707;
-$table-cell-padding: 0;
-$table-cell-padding: 0;
-$close-font-size: 1rem;
-$close-font-weight: 400;
-$close-color: #10b485;
+$table-cell-padding: .75rem !default;
+
+// Close
+$close-font-size:                   $font-size-base * 1.5 !default;
+$close-font-weight:                 $font-weight-bold !default;
+$close-color:                       $black !default;
+$close-text-shadow:                 0 1px 0 $white !default;
