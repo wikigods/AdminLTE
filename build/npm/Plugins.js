@@ -8,8 +8,8 @@ const Plugins = [
   },
   // Popper
   {
-    from: 'node_modules/popper.js/dist',
-    to: 'plugins/popper'
+    from: 'node_modules/@popperjs/core/dist/umd/popper.min.js',
+    to: 'plugins/popperjs'
   },
   // Bootstrap
   {
@@ -27,11 +27,11 @@ const Plugins = [
   },
   // overlayScrollbars
   {
-    from: 'node_modules/overlayscrollbars/js',
+    from: 'node_modules/overlayscrollbars',
     to: 'plugins/overlayScrollbars/js'
   },
   {
-    from: 'node_modules/overlayscrollbars/css',
+    from: 'node_modules/overlayscrollbars/styles',
     to: 'plugins/overlayScrollbars/css'
   },
   // Chart.js
@@ -44,47 +44,6 @@ const Plugins = [
     from: 'node_modules/jquery-ui-dist/',
     to: 'plugins/jquery-ui'
   },
-  // Flot
-  {
-    from: 'node_modules/flot/dist/es5/',
-    to: 'plugins/flot'
-  },
-  {
-    from: 'node_modules/flot/source/',
-    to: 'plugins/flot/plugins'
-  },
-  // Summernote
-  {
-    from: 'node_modules/summernote/dist/',
-    to: 'plugins/summernote'
-  },
-  // Bootstrap Slider
-  {
-    from: 'node_modules/bootstrap-slider/dist/',
-    to: 'plugins/bootstrap-slider'
-  },
-  {
-    from: 'node_modules/bootstrap-slider/dist/css',
-    to: 'plugins/bootstrap-slider/css'
-  },
-  // Bootstrap Colorpicker
-  {
-    from: 'node_modules/bootstrap-colorpicker/dist/js',
-    to: 'plugins/bootstrap-colorpicker/js'
-  },
-  {
-    from: 'node_modules/bootstrap-colorpicker/dist/css',
-    to: 'plugins/bootstrap-colorpicker/css'
-  },
-  // Tempusdominus Bootstrap 4
-  {
-    from: 'node_modules/tempusdominus-bootstrap-4/build/js',
-    to: 'plugins/tempusdominus-bootstrap-4/js'
-  },
-  {
-    from: 'node_modules/tempusdominus-bootstrap-4/build/css',
-    to: 'plugins/tempusdominus-bootstrap-4/css'
-  },
   // Moment
   {
     from: 'node_modules/moment/min',
@@ -93,11 +52,6 @@ const Plugins = [
   {
     from: 'node_modules/moment/locale',
     to: 'plugins/moment/locale'
-  },
-  // FastClick
-  {
-    from: 'node_modules/fastclick/lib',
-    to: 'plugins/fastclick'
   },
   // Date Range Picker
   {
@@ -118,23 +72,23 @@ const Plugins = [
     to: 'plugins/datatables'
   },
   {
-    from: 'node_modules/datatables.net-bs4/js',
-    to: 'plugins/datatables-bs4/js'
+    from: 'node_modules/datatables.net-bs5/js',
+    to: 'plugins/datatables-bs5/js'
   },
   {
-    from: 'node_modules/datatables.net-bs4/css',
-    to: 'plugins/datatables-bs4/css'
+    from: 'node_modules/datatables.net-bs5/css',
+    to: 'plugins/datatables-bs5/css'
   },
   {
     from: 'node_modules/datatables.net-autofill/js',
     to: 'plugins/datatables-autofill/js'
   },
   {
-    from: 'node_modules/datatables.net-autofill-bs4/js',
+    from: 'node_modules/datatables.net-autofill-bs5/js',
     to: 'plugins/datatables-autofill/js'
   },
   {
-    from: 'node_modules/datatables.net-autofill-bs4/css',
+    from: 'node_modules/datatables.net-autofill-bs5/css',
     to: 'plugins/datatables-autofill/css'
   },
   {
@@ -142,11 +96,11 @@ const Plugins = [
     to: 'plugins/datatables-buttons/js'
   },
   {
-    from: 'node_modules/datatables.net-buttons-bs4/js',
+    from: 'node_modules/datatables.net-buttons-bs5/js',
     to: 'plugins/datatables-buttons/js'
   },
   {
-    from: 'node_modules/datatables.net-buttons-bs4/css',
+    from: 'node_modules/datatables.net-buttons-bs5/css',
     to: 'plugins/datatables-buttons/css'
   },
   {
@@ -154,11 +108,11 @@ const Plugins = [
     to: 'plugins/datatables-colreorder/js'
   },
   {
-    from: 'node_modules/datatables.net-colreorder-bs4/js',
+    from: 'node_modules/datatables.net-colreorder-bs5/js',
     to: 'plugins/datatables-colreorder/js'
   },
   {
-    from: 'node_modules/datatables.net-colreorder-bs4/css',
+    from: 'node_modules/datatables.net-colreorder-bs5/css',
     to: 'plugins/datatables-colreorder/css'
   },
   {
@@ -166,11 +120,11 @@ const Plugins = [
     to: 'plugins/datatables-fixedcolumns/js'
   },
   {
-    from: 'node_modules/datatables.net-fixedcolumns-bs4/js',
+    from: 'node_modules/datatables.net-fixedcolumns-bs5/js',
     to: 'plugins/datatables-fixedcolumns/js'
   },
   {
-    from: 'node_modules/datatables.net-fixedcolumns-bs4/css',
+    from: 'node_modules/datatables.net-fixedcolumns-bs5/css',
     to: 'plugins/datatables-fixedcolumns/css'
   },
   {
@@ -178,11 +132,11 @@ const Plugins = [
     to: 'plugins/datatables-fixedheader/js'
   },
   {
-    from: 'node_modules/datatables.net-fixedheader-bs4/js',
+    from: 'node_modules/datatables.net-fixedheader-bs5/js',
     to: 'plugins/datatables-fixedheader/js'
   },
   {
-    from: 'node_modules/datatables.net-fixedheader-bs4/css',
+    from: 'node_modules/datatables.net-fixedheader-bs5/css',
     to: 'plugins/datatables-fixedheader/css'
   },
   {
@@ -190,11 +144,11 @@ const Plugins = [
     to: 'plugins/datatables-keytable/js'
   },
   {
-    from: 'node_modules/datatables.net-keytable-bs4/js',
+    from: 'node_modules/datatables.net-keytable-bs5/js',
     to: 'plugins/datatables-keytable/js'
   },
   {
-    from: 'node_modules/datatables.net-keytable-bs4/css',
+    from: 'node_modules/datatables.net-keytable-bs5/css',
     to: 'plugins/datatables-keytable/css'
   },
   {
@@ -202,11 +156,11 @@ const Plugins = [
     to: 'plugins/datatables-responsive/js'
   },
   {
-    from: 'node_modules/datatables.net-responsive-bs4/js',
+    from: 'node_modules/datatables.net-responsive-bs5/js',
     to: 'plugins/datatables-responsive/js'
   },
   {
-    from: 'node_modules/datatables.net-responsive-bs4/css',
+    from: 'node_modules/datatables.net-responsive-bs5/css',
     to: 'plugins/datatables-responsive/css'
   },
   {
@@ -214,35 +168,31 @@ const Plugins = [
     to: 'plugins/datatables-rowgroup/js'
   },
   {
-    from: 'node_modules/datatables.net-rowgroup-bs4/js',
+    from: 'node_modules/datatables.net-rowgroup-bs5/js',
     to: 'plugins/datatables-rowgroup/js'
   },
   {
-    from: 'node_modules/datatables.net-rowgroup-bs4/css',
+    from: 'node_modules/datatables.net-rowgroup-bs5/css',
     to: 'plugins/datatables-rowgroup/css'
   },
   {
-    from: 'node_modules/datatables.net-rowreorder/js',
-    to: 'plugins/datatables-rowreorder/js'
+    from: 'node_modules/datatables.net-rowreorder-bs5/js',
+    to: 'plugins/js'
   },
   {
-    from: 'node_modules/datatables.net-rowreorder-bs4/js',
-    to: 'plugins/datatables-rowreorder/js'
-  },
-  {
-    from: 'node_modules/datatables.net-rowreorder-bs4/css',
-    to: 'plugins/datatables-rowreorder/css'
+    from: 'node_modules/datatables.net-rowreorder-bs5/css',
+    to: 'plugins/css'
   },
   {
     from: 'node_modules/datatables.net-scroller/js',
     to: 'plugins/datatables-scroller/js'
   },
   {
-    from: 'node_modules/datatables.net-scroller-bs4/js',
+    from: 'node_modules/datatables.net-scroller-bs5/js',
     to: 'plugins/datatables-scroller/js'
   },
   {
-    from: 'node_modules/datatables.net-scroller-bs4/css',
+    from: 'node_modules/datatables.net-scroller-bs5/css',
     to: 'plugins/datatables-scroller/css'
   },
   {
@@ -250,11 +200,11 @@ const Plugins = [
     to: 'plugins/datatables-searchbuilder/js'
   },
   {
-    from: 'node_modules/datatables.net-searchbuilder-bs4/js',
+    from: 'node_modules/datatables.net-searchbuilder-bs5/js',
     to: 'plugins/datatables-searchbuilder/js'
   },
   {
-    from: 'node_modules/datatables.net-searchbuilder-bs4/css',
+    from: 'node_modules/datatables.net-searchbuilder-bs5/css',
     to: 'plugins/datatables-searchbuilder/css'
   },
   {
@@ -262,11 +212,11 @@ const Plugins = [
     to: 'plugins/datatables-searchpanes/js'
   },
   {
-    from: 'node_modules/datatables.net-searchpanes-bs4/js',
+    from: 'node_modules/datatables.net-searchpanes-bs5/js',
     to: 'plugins/datatables-searchpanes/js'
   },
   {
-    from: 'node_modules/datatables.net-searchpanes-bs4/css',
+    from: 'node_modules/datatables.net-searchpanes-bs5/css',
     to: 'plugins/datatables-searchpanes/css'
   },
   {
@@ -274,11 +224,11 @@ const Plugins = [
     to: 'plugins/datatables-select/js'
   },
   {
-    from: 'node_modules/datatables.net-select-bs4/js',
+    from: 'node_modules/datatables.net-select-bs5/js',
     to: 'plugins/datatables-select/js'
   },
   {
-    from: 'node_modules/datatables.net-select-bs4/css',
+    from: 'node_modules/datatables.net-select-bs5/css',
     to: 'plugins/datatables-select/css'
   },
 
@@ -286,21 +236,6 @@ const Plugins = [
   {
     from: 'node_modules/fullcalendar/',
     to: 'plugins/fullcalendar'
-  },
-  // icheck bootstrap
-  {
-    from: 'node_modules/icheck-bootstrap/',
-    to: 'plugins/icheck-bootstrap'
-  },
-  // inputmask
-  {
-    from: 'node_modules/inputmask/dist/',
-    to: 'plugins/inputmask'
-  },
-  // ion-rangeslider
-  {
-    from: 'node_modules/ion-rangeslider/',
-    to: 'plugins/ion-rangeslider'
   },
   // JQVMap (jqvmap-novulnerability)
   {
@@ -316,21 +251,6 @@ const Plugins = [
   {
     from: 'node_modules/raphael/',
     to: 'plugins/raphael'
-  },
-  // jQuery Mousewheel
-  {
-    from: 'node_modules/jquery-mousewheel/',
-    to: 'plugins/jquery-mousewheel'
-  },
-  // jQuery Knob
-  {
-    from: 'node_modules/jquery-knob-chif/dist/',
-    to: 'plugins/jquery-knob'
-  },
-  // pace-progress
-  {
-    from: 'node_modules/@lgaitan/pace-progress/dist/',
-    to: 'plugins/pace-progress'
   },
   // Select2
   {
@@ -351,10 +271,6 @@ const Plugins = [
     from: 'node_modules/sweetalert2/dist/',
     to: 'plugins/sweetalert2'
   },
-  {
-    from: 'node_modules/@sweetalert2/theme-bootstrap-4/',
-    to: 'plugins/sweetalert2-theme-bootstrap-4'
-  },
   // Toastr
   {
     from: 'node_modules/toastr/build/',
@@ -369,49 +285,12 @@ const Plugins = [
     from: 'node_modules/jsgrid/demos/db.js',
     to: 'plugins/jsgrid/demos/db.js'
   },
-  // flag-icons
-  {
-    from: 'node_modules/flag-icons/css',
-    to: 'plugins/flag-icons/css'
-  },
-  {
-    from: 'node_modules/flag-icons/flags',
-    to: 'plugins/flag-icons/flags'
-  },
-  // bootstrap4-duallistbox
-  {
-    from: 'node_modules/bootstrap4-duallistbox/dist',
-    to: 'plugins/bootstrap4-duallistbox/'
-  },
-  // filterizr
-  {
-    from: 'node_modules/filterizr/dist',
-    to: 'plugins/filterizr/'
-  },
-  // ekko-lightbox
-  {
-    from: 'node_modules/ekko-lightbox/dist',
-    to: 'plugins/ekko-lightbox/'
-  },
+
+
   // jQuery Validate
   {
     from: 'node_modules/jquery-validation/dist/',
     to: 'plugins/jquery-validation'
-  },
-  // bs-custom-file-input
-  {
-    from: 'node_modules/bs-custom-file-input/dist/',
-    to: 'plugins/bs-custom-file-input'
-  },
-  // bs-stepper
-  {
-    from: 'node_modules/bs-stepper/dist/',
-    to: 'plugins/bs-stepper'
-  },
-  // CodeMirror
-  {
-    from: 'node_modules/codemirror/lib/',
-    to: 'plugins/codemirror'
   },
   {
     from: 'node_modules/codemirror/addon/',
