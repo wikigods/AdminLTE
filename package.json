@@ -11,7 +11,7 @@
     "css-splits": "npm-run-all css-compile-splits css-prefix-splits css-minify-splits",
     "css-all": "npm-run-all --parallel css css-splits",
     "css-compile-bash": "sass --silence-deprecation=color-functions,global-builtin,mixed-decls,import --style=expanded --load-path=\"node_modules\" --source-map --embed-sources --no-error-css build/scss/:dist/css/",
-    "css-compile": "npm run css-compile-bash -- build/scss/adminlte.scss dist/css/adminlte.css",
+    "css-compile": "npm run css-compile-bash -- build/scss/adminlte.scss:dist/css/adminlte.css",
     "css-compile-splits": "npm run css-compile-bash -- build/scss/parts:dist/css/alt/",
     "css-prefix": "postcss --config build/config/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "css-prefix-splits": "postcss --config build/config/postcss.config.js --replace \"dist/css/alt/*.css\" \"!dist/css/alt/*.min.css\"",
