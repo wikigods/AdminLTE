@@ -736,8 +736,8 @@
   var SELECTOR_NAVBAR = '.navbar';
   var SELECTOR_DROPDOWN_MENU = '.dropdown-menu';
   var SELECTOR_DROPDOWN_MENU_ACTIVE = '.dropdown-menu.show';
-  var SELECTOR_DROPDOWN_TOGGLE = '[data-toggle="dropdown"]';
-  var CLASS_NAME_DROPDOWN_RIGHT = 'dropdown-menu-right';
+  var SELECTOR_DROPDOWN_TOGGLE = '[data-bs-toggle="dropdown"]';
+  var CLASS_NAME_DROPDOWN_RIGHT = 'dropdown-menu-end';
   var CLASS_NAME_DROPDOWN_SUBMENU = 'dropdown-submenu';
 
   // TODO: this is unused; should be removed along with the extend?

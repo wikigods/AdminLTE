@@ -13699,6 +13699,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 [class*=sidebar-dark] .brand-link {
   border-bottom: 1px solid rgb(55.7432432432, 62.5, 69.2567567568);
+  text-decoration: none;
 }
 [class*=sidebar-dark] .brand-link,
 [class*=sidebar-dark] .brand-link .pushmenu {
@@ -13710,6 +13711,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 [class*=sidebar-light] .brand-link {
   border-bottom: 1px solid #dee2e6;
+  text-decoration: none;
 }
 [class*=sidebar-light] .brand-link,
 [class*=sidebar-light] .brand-link .pushmenu {
@@ -13989,6 +13991,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 [class*=sidebar-light-] .sidebar a {
   color: #343a40;
+  text-decoration: none;
 }
 [class*=sidebar-light-] .sidebar a:hover {
   text-decoration: none;
@@ -14054,6 +14057,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 [class*=sidebar-dark-] .sidebar a {
   color: #c2c7d0;
+  text-decoration: none;
 }
 [class*=sidebar-dark-] .sidebar a:hover, [class*=sidebar-dark-] .sidebar a:focus {
   text-decoration: none;

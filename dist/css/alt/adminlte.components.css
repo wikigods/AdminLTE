@@ -8886,6 +8886,20 @@ html.maximized-card {
   top: -3px;
 }
 
+.btn-lg {
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-font-size: 1.25rem;
+  --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+
+.btn-sm {
+  --bs-btn-padding-y: 0.25rem;
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-font-size: 0.875rem;
+  --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
 .dark-mode .btn-default,
 .dark-mode .btn-app {
   background-color: rgb(38.6858108108, 43.375, 48.0641891892);
