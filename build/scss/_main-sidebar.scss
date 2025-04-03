@@ -301,7 +301,7 @@
   .sidebar {
     a {
       color: $sidebar-light-color;
-
+      text-decoration: none;
       &:hover {
         text-decoration: none;
       }
@@ -430,7 +430,7 @@
   .sidebar {
     a {
       color: $sidebar-dark-color;
-
+      text-decoration: none;
       &:hover,
       &:focus {
         text-decoration: none;
