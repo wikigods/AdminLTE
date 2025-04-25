@@ -101,7 +101,7 @@
   }
 }
 .small-box {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   display: block;
   margin-bottom: 20px;
   position: relative;
@@ -232,7 +232,7 @@
   }
 }
 .info-box {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   background-color: #fff;
   display: flex;
   margin-bottom: 1rem;
@@ -250,7 +250,7 @@
   background-color: #fff;
 }
 .info-box .info-box-icon {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   align-items: center;
   display: flex;
   font-size: 1.875rem;
@@ -300,11 +300,11 @@
 }
 .info-box .info-box .bg-success,
 .info-box .info-box .bg-gradient-success {
-  color: #fff;
+  color: #000;
 }
 .info-box .info-box .bg-success .progress-bar,
 .info-box .info-box .bg-gradient-success .progress-bar {
-  background-color: #fff;
+  background-color: #000;
 }
 .info-box .info-box .bg-info,
 .info-box .info-box .bg-gradient-info {
@@ -456,7 +456,7 @@
   position: relative;
 }
 .timeline::before {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   background-color: #dee2e6;
   bottom: 0;
   content: "";
@@ -478,7 +478,7 @@
   display: table;
 }
 .timeline > div > .timeline-item {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   background-color: #fff;
   color: #495057;
   margin-left: 60px;
@@ -579,7 +579,7 @@
   padding: 0;
 }
 .products-list > .item {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   background-color: #fff;
   padding: 10px 0;
 }
@@ -829,12 +829,12 @@
 }
 
 .direct-chat-success .right > .direct-chat-text {
-  background-color: #198754;
-  border-color: #198754;
-  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #000;
 }
 .direct-chat-success .right > .direct-chat-text::after, .direct-chat-success .right > .direct-chat-text::before {
-  border-left-color: #198754;
+  border-left-color: #28a745;
 }
 
 .direct-chat-info .right > .direct-chat-text {
@@ -1000,12 +1000,12 @@
 }
 
 .direct-chat-green .right > .direct-chat-text {
-  background-color: #198754;
-  border-color: #198754;
-  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #000;
 }
 .direct-chat-green .right > .direct-chat-text::after, .direct-chat-green .right > .direct-chat-text::before {
-  border-left-color: #198754;
+  border-left-color: #28a745;
 }
 
 .direct-chat-teal .right > .direct-chat-text {
@@ -1344,8 +1344,8 @@
 }
 
 .widget-user .widget-user-header {
-  border-top-left-radius: 0.375rem;
-  border-top-right-radius: 0.375rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   height: 135px;
   padding: 1rem;
   text-align: center;
@@ -1376,8 +1376,8 @@
 }
 
 .widget-user-2 .widget-user-header {
-  border-top-left-radius: 0.375rem;
-  border-top-right-radius: 0.375rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   padding: 1rem;
 }
 .widget-user-2 .widget-user-username {
