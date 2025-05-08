@@ -22,7 +22,7 @@ The biggest change in Main Header is the Logo is moved to Main Sidebar and the M
 3. Sidebar Toggle / Left Navbar
   - `<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button"><span class="sr-only">Toggle navigation</span></a>` replaced with `<ul class="navbar-nav"><li class="nav-item"><a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a></li></ul>`
 3. Right Navbar
-  - `<div class="navbar-custom-menu">` & `<ul class="nav navbar-nav">` merged with `<ul class="navbar-nav ml-auto">`
+  - `<div class="navbar-custom-menu">` & `<ul class="nav navbar-nav">` merged with `<ul class="navbar-nav ms-auto">`
 
 ##### Main Sidebar
 

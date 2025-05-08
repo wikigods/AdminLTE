@@ -109,10 +109,10 @@ class Toasts {
     }
 
     if (this._config.close == true) {
-      const toastClose = $('<button data-dismiss="toast" />').attr('type', 'button').addClass('ml-2 mb-1 close').attr('aria-label', 'Close').append('<span aria-hidden="true">&times;</span>')
+      const toastClose = $('<button data-dismiss="toast" />').attr('type', 'button').addClass('ms-2 mb-1 close').attr('aria-label', 'Close').append('<span aria-hidden="true">&times;</span>')
 
       if (this._config.title == null) {
-        toastClose.toggleClass('ml-2 ml-auto')
+        toastClose.toggleClass('ms-2 ms-auto')
       }
 
       toastHeader.append(toastClose)

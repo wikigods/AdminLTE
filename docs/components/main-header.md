@@ -53,7 +53,7 @@ The main header contains the navbar. Construction of the navbar differs slightly
   </form>
 
   <!-- Right navbar links -->
-  <ul class="navbar-nav ml-auto">
+  <ul class="navbar-nav ms-auto">
     <!-- Messages Dropdown Menu -->
     <li class="nav-item dropdown">
       <a class="nav-link" data-toggle="dropdown" href="#">
@@ -186,7 +186,7 @@ The main header contains the navbar. Construction of the navbar differs slightly
   </form>
 
   <!-- Right navbar links -->
-  <ul class="navbar-nav ml-auto">
+  <ul class="navbar-nav ms-auto">
     <!-- Messages Dropdown Menu -->
     <li class="nav-item dropdown">
       <a class="nav-link" data-toggle="dropdown" href="#">
@@ -333,7 +333,7 @@ Top navbar example can be found in this [demo page](https://adminlte.io/themes/d
       </div>
     </form>
     <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ms-auto">
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
@@ -470,7 +470,7 @@ Top navbar example can be found in this [demo page](https://adminlte.io/themes/d
       </div>
     </form>
     <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ms-auto">
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
