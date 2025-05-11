@@ -13,7 +13,6 @@
 
   &:hover {
     color: $white;
-    text-decoration: none;
   }
 
   .text-sm & {
@@ -22,7 +21,6 @@
 
   [class*="sidebar-dark"] & {
     border-bottom: 1px solid lighten($dark, 10%);
-    text-decoration: none;
     &,
     .pushmenu {
       color: rgba($white, .8);
@@ -35,7 +33,6 @@
 
   [class*="sidebar-light"] & {
     border-bottom: 1px solid $gray-300;
-    text-decoration: none;
     &,
     .pushmenu {
       color: rgba($black, .8);

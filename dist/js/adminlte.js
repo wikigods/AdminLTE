@@ -1,5 +1,5 @@
 /*!
- * AdminLTE v3.2.0 (https://adminlte.io)
+ * AdminLTE v1.0.3 (https://adminlte.io)
  * Copyright 2014-2025 Colorlib <https://colorlib.com>
  * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
  */
@@ -2372,9 +2372,9 @@
         toastHeader.append($('<small />').html(this._config.subtitle));
       }
       if (this._config.close == true) {
-        var toastClose = $('<button data-dismiss="toast" />').attr('type', 'button').addClass('ml-2 mb-1 close').attr('aria-label', 'Close').append('<span aria-hidden="true">&times;</span>');
+        var toastClose = $('<button data-dismiss="toast" />').attr('type', 'button').addClass('ms-2 mb-1 close').attr('aria-label', 'Close').append('<span aria-hidden="true">&times;</span>');
         if (this._config.title == null) {
-          toastClose.toggleClass('ml-2 ml-auto');
+          toastClose.toggleClass('ms-2 ms-auto');
         }
         toastHeader.append(toastClose);
       }
