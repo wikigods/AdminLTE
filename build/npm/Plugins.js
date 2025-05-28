@@ -411,7 +411,7 @@ const Plugins = [
   },
   // CodeMirror
   {
-    from: 'node_modules/codemirror/lib/',
+    from: 'node_modules/codemirror/dist/',
     to: 'plugins/codemirror'
   },
   {

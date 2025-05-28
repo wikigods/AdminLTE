@@ -1,7 +1,7 @@
 {
   "name": "admin-lv",
   "description": "Responsive open source admin dashboard and control panel.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": "Colorlib <https://colorlib.com>",
   "main": "dist/js/adminlte.min.js",
@@ -93,6 +93,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.9",
+    "codemirror": "^6.0.1",
     "datatables.net": "^2.2.2",
     "datatables.net-autofill-bs5": "^2.7.0",
     "datatables.net-bs5": "^2.2.2",
